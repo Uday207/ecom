@@ -10,13 +10,13 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav_box">
         <span className="my_shop">
-          <Link to={`/`} style={{ color: 'white', textDecoration: 'none',fontSize: '35px',marginLeft: '-60px'}}>
+          <Link to={`/`} style={{ color: 'white', textDecoration: 'none',marginLeft: '-55px'}}>
             E-commerce
           </Link>
         </span>
         <div className="cart">
           <Link to={`/addProduct`} style={{ textDecoration: 'none' }}>
-            <label className="mx-5 mb-2 text-white" style={{ fontSize: '18px' }}>
+            <label className="mx-5 mb-2 text-white" style={{ fontSize: '14px' }}>
               Add Product
             </label>
           </Link>
